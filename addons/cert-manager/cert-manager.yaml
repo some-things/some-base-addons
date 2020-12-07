@@ -28,8 +28,8 @@ spec:
       enabled: true
   chartReference:
     chart: cert-manager-setup
-    repo: https://mesosphere.github.io/charts/stable
-    version: 0.2.6
+    repo: https://some-things.github.io/charts/testing
+    version: 0.2.7
     values: |
       ---
       upgradeImage: "mesosphere/kubeaddons-addon-initializer:v0.4.2"
